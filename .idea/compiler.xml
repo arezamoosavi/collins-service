@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Annotation profile for collins-service" enabled="true">
+        <sourceOutputDir name="../spark-batch/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../spark-batch/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spark" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spark-stream" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

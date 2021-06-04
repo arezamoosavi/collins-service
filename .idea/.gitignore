@@ -1,0 +1,53 @@
+# Default ignored files
+/shelf/
+/workspace.xml
+
+
+[Bb]in
+[Ii]nclude
+[Ll]ib
+[Ll]ib64
+[Ll]ocal
+
+# [Ss]cripts
+\.vscode/
+.vscode
+
+
+*.class
+*.log
+
+# VIM temporary files
+*.swp
+
+# Emacs temporary files
+\#*#
+.#*
+
+# SBT
+project/project
+project/target
+target
+dist
+
+
+/*.iml
+/.ensime*
+/.classpath
+/.project
+
+# Others
+logs
+tmp
+tags
+.history
+/.settings
+.cache
+/out
+out/
+/RUNNING_PID
+/nohup.out
+
+
+*.model
+*.jar
